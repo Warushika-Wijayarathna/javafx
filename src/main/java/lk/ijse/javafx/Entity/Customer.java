@@ -6,15 +6,11 @@ public class Customer {
     private String address;
     private int contact;
 
-
     public Customer(int id, String name, String address, int contact) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.contact = contact;
-    }
-
-    public Customer(String text, String text1, String text2, String text3) {
     }
 
     public int getId() {
@@ -41,11 +37,11 @@ public class Customer {
         this.address = address;
     }
 
-    public int getAge() {
+    public int getContact() {
         return contact;
     }
 
-    public void setAge(int contact) {
+    public void setContact(int contact) {
         this.contact = contact;
     }
 
@@ -55,7 +51,7 @@ public class Customer {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
-                ", age=" + contact +
+                ", contact=" + contact +
                 '}';
     }
 }
