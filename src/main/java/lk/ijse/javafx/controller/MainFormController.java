@@ -1,6 +1,8 @@
 package lk.ijse.javafx.controller;
 
 
+import com.github.plushaze.traynotification.notification.Notifications;
+import com.github.plushaze.traynotification.notification.TrayNotification;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -30,6 +32,17 @@ public class MainFormController {
         AnchorPane itemForm = loader.load();
         pane.getChildren().clear();
         pane.getChildren().add(itemForm);
+
+        showNotification();
+    }
+
+    private void showNotification() {
+        String title = "Huree!";
+        String message = "You've successfully login to the system";
+
+        Notifications notification = Notifications.SUCCESS;
+        TrayNotification tray = new TrayNotification(title, message, notification);
+        tray.showAndWait();
     }
 
     public void supplierBtnOnClick(ActionEvent actionEvent) throws IOException {

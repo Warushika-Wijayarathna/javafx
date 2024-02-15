@@ -1,12 +1,12 @@
-package lk.ijse.javafx.Entity;
+package lk.ijse.javafx.Model;
 
-public class Customer {
+public class Supplier {
     private int id;
     private String name;
     private String address;
     private int contact;
 
-    public Customer(int id, String name, String address, int contact) {
+    public Supplier(int id, String name, String address, int contact) {
         this.id = id;
         this.name = name;
         this.address = address;

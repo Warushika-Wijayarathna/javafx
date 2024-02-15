@@ -8,7 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
-import lk.ijse.javafx.Entity.Customer;
+import lk.ijse.javafx.Model.Customer;
 
 
 import java.util.ArrayList;

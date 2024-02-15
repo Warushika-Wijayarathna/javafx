@@ -1,4 +1,4 @@
-package lk.ijse.javafx.Entity;
+package lk.ijse.javafx.Model;
 
 public class Item {
     private int id;

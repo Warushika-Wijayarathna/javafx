@@ -18,7 +18,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        //load scene graph to our java method
+
         AnchorPane rootNode = FXMLLoader.load(this.getClass().getResource("/view/log_in_form.fxml"));
 
         Scene scene = new Scene(rootNode);
