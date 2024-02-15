@@ -12,7 +12,7 @@
 
 <AnchorPane fx:id="rootNode" prefHeight="894.0" prefWidth="1245.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.javafx.controller.MainFormController">
    <children>
-      <Label layoutX="567.0" layoutY="21.0" prefHeight="125.0" prefWidth="348.0" text="Dashboard">
+      <Label layoutX="611.0" layoutY="21.0" prefHeight="125.0" prefWidth="305.0" text="Main Form">
          <font>
             <Font name="System Bold" size="51.0" />
          </font>
